@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<style>
+div.c1{background-color:green;height:200px;width:200px;transition-property:scale;transition:0,5s; }
+.c2{background-color:red;height:200px;width:200px;}
+.c3{background-color:yellow;height:200px; width:200px;transition-timing-function:ease-in-out;}
+.c4{background-color:coral;height:200px; width:200px;transition: width 2s, height 2s, transform 2s;}
+.c5{background-color:aqua;height:200px; width:200px;transition: width 2s, height 2s, transform 2s;}
+.c6{background-color:darkorchid;height:200px; width:200px;transition: width 2s, height 2s, transform 2s;}
+#div1:hover{transform:scale(2,2);}
+#div2:hover{background-color:yellow;}
+#div3:hover{transform:translate(50px,0px);}
+#div4:hover{width: 300px;height: 300px;transform: rotate(180deg);}
+#div5:hover{transform:matrix(2,-0.3,0,1,0,0);}
+#div6:hover{transform:scale(2,5);}
+
+}
+</style>
+<body>
+    
+	<div id="div1" class="c1">1°</div>
+	<div id="div2" class="c2">2°</div>
+	<div id="div3" class="c3">3°</div>
+	<div id="div4" class="c4">4°</div>
+	<div id="div5" class="c5">5°</div>
+	<div id="div6" class="c6">6°</div>
+	
+</body>
+</html>

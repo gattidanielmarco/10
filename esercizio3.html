@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<style>
+.c1{background-color:red;height:200px;width:200px;animation-name:div1;animation-duration:4s;animation-iteration-count: infinite;}
+.c2{background-color:red;height:200px;width:200px;animation-name:div2;animation-duration:4s;margin-top:100px;margin-bottom:100px;position:relative;}
+.c3{background-color:red;height:200px; width:200px;animation-name:div3;animation-duration:5s;animation-delay:5s;margin-top:100px;margin-bottom:100px;position:relative;}
+.c4{background-color:red;height:200px; width:200px;animation-name:div4;animation-duration:5s;margin-top:100px;margin-bottom:100px;position:relative;}
+.c5{background-color:aqua;height:200px; width:200px;animation:div5 5s linear 2s infinite alternate; }
+.c6{background-color:darkorchid;height:200px; width:200px;animation:div6 10s ease 4s infinite both;}
+.c7{background-color:coral;height:200px;width:200px;animation:div7 10s linear 1s infinite alternate;}
+.c8{background-color:blue;height:200px;width:200px;animation:div8 10s linear 5s infinite alternate;}
+.c9{background-color:yellow;height:200px;width:200px;animation:div9 10s ease 5s infinite alternate;}
+.c10{background-color:black;height:200px;width:200px;animation:div10 5s ease 5s infinite both;}
+@keyframes div1{0%{background-color:red;}
+				25%{background-color:yellow;}
+				50%{background-color:green;}
+				100%{background-color:blue;}
+				}
+@keyframes div2 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:green; left:200px; top:200px;}
+  75%  {background-color:blue; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+@keyframes div3{0%   {background-color:red; left:0px; top:0px;}
+				25%  {background-color:yellow; left:200px; top:0px;}
+				50%  {background-color:green; left:200px; top:200px;}
+				75%  {background-color:blue; left:0px; top:200px;}
+				100% {background-color:red; left:0px; top:0px;}}
+@keyframes div4{0%   {background-color:red; left:0px; top:0px;}
+				25%  {background-color:yellow; left:200px; top:0px;}
+				50%  {background-color:green; left:200px; top:200px;}
+				75%  {background-color:blue; left:0px; top:200px;}
+				100% {background-color:red; left:0px; top:0px;}}
+@keyframes div5{from{background-color:aqua;} to{background-color:orange;}}
+@keyframes div6{0%{background-color:green;width:300px;}25%{background-color:white;width:100px;}50%{background-color:yellow;height:300px;}100%{background-color:black;height:100px;}}
+@keyframes div7{from{width:500px;height:100px;}to{width:100px;height:500px;}}
+@keyframes div8{from{background-color:coral;}to{background-color:black;}}
+@keyframes div9{from{width:400px;height:300px;}to{width:10px;height:100px;}}
+@keyframes div10{from{background-color:darkorchid;}to{background-color:aqua;}}
+</style>
+<body>
+    
+	<div class="c1" id="div1">1°</div>
+	<div class="c2" id="div2">2°</div>
+	<div class="c3" id="div3">3°</div>
+	<div class="c4" id="div4">4°</div>
+	<div class="c5" id="div5">5°</div>
+	<div class="c6" id="div6">6°</div>
+	<div class="c7" id="div7">7°</div>
+	<div class="c8" id="div8">8°</div>
+	<div class="c9" id="div9">9°</div>
+	<div class="c10" id="div10">10°</div>
+	
+</body>
+</html>
